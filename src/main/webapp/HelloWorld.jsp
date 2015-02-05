@@ -7,14 +7,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Mostrar campos</title>
 </head>
 <body>
 
 <h1>
-<!-- 
-<bean:write name="helloWorldForm" property="message" />
--->
 <%
 //texto = request.getAttribute("texto");
 //nombre = request.getAttribute("nombre");
