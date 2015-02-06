@@ -14,10 +14,8 @@
 <!-- Asociamos el formulario a usar con el name -->  
 	<action-mappings>
 	   <action path="/helloWorld"
-		type="open4job.web.HelloWorldAction" name="visualizarDatosForm"> 
-				
+		type="open4job.web.HelloWorldAction" name="visualizarDatosForm" input="/Error.jsp"> 	
 		<forward name="success" path="/HelloWorld.jsp"/>
- 
 	   </action>
 	</action-mappings>
  
