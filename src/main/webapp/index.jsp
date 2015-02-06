@@ -5,8 +5,9 @@
 <form action="./helloWorld.do" method="get">
 
 
-Texto: <input type="text" name="texto"/>
 Nombre: <input type="text" name="nombre"/>
+<br>
+Apellido: <input type="text" name="apellido"/>
 
 <p> <input type="submit" value="enviar"/>
 

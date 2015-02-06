@@ -5,18 +5,16 @@
  
 <struts-config>
 
-<!--  Como no vamos a hacer nada de formularios lo dejamos comentado
-
+<!-- Definimos el formulario a usar -->
 	<form-beans>
-	   <form-bean name="helloWorldForm" 
-		type="open4job.web.HelloWorldForm"/>
+	   <form-bean name="visualizarDatosForm" 
+		type="open4job.web.VisualizarDatosForm"/>
 	</form-beans>
 	
--->
-  
+<!-- Asociamos el formulario a usar con el name -->  
 	<action-mappings>
 	   <action path="/helloWorld"
-		type="open4job.web.HelloWorldAction">
+		type="open4job.web.HelloWorldAction" name="visualizarDatosForm"> 
 				
 		<forward name="success" path="/HelloWorld.jsp"/>
  

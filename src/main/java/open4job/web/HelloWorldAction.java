@@ -16,15 +16,17 @@ public class HelloWorldAction extends Action{
 		HttpServletRequest request,HttpServletResponse response)
         throws Exception {
  
-		//HelloWorldForm helloWorldForm = (HelloWorldForm) form;
-		//helloWorldForm.setMessage("Hello World! Struts");
- 
-		String texto = request.getParameter("texto");
-		String nombre = request.getParameter("nombre");
 		
-		request.setAttribute("texto", texto);
+		 
+/*		SIN USAR FORMULARIO	
+ * 
+		String nombre = request.getParameter("nombre");
+		String apellido = request.getParameter("apellido");
+		
 		request.setAttribute("nombre", nombre);
+		request.setAttribute("apellido", apellido);
 
+*/
 		
 		//la cacdena success es un alias para llamar con el forward a cualquier .jsp
 		//que estarán definidos en el struts-config.xml

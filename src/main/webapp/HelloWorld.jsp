@@ -13,12 +13,20 @@
 
 <h1>
 <%
-//texto = request.getAttribute("texto");
-//nombre = request.getAttribute("nombre");
+//SIN USAR FORMULARIO
 
-out.println(request.getAttribute("texto"));
-out.println(request.getAttribute("nombre"));
+//Opcion 1
+//String nombre = (String) request.getAttribute("nombre");
+//String apellido = (String) request.getAttribute("apellido");
+
+//Opcion 2
+//out.println(request.getAttribute("nombre"));
+//out.println(request.getAttribute("apellido"));
 %>
+<!-- Usando FORMULARIO -->
+<bean:write name="visualizarDatosForm" property="nombre"/>
+<bean:write name="visualizarDatosForm" property="apellido"/>
+
 </h1>
 
 </body>
